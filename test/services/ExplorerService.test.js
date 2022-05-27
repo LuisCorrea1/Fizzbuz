@@ -5,5 +5,5 @@ describe("Test for ExplorerService", () => {
         const explorers = [{mission: "node"}]
         const explorersInNode = ExplorerService.filterByMission(explorers, "node")
         expect(explorersInNode.length).toBe(1);
-})
+    })
 })
